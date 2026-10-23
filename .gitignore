@@ -1,0 +1,39 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+
+# Local application configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# Java / Maven
+**/target/
+**/build/
+*.class
+hs_err_pid*
+
+# Node.js / frontend
+**/node_modules/
+**/dist/
+**/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+logs/
