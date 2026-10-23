@@ -81,7 +81,7 @@ Make sure the following software is installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/mnaufal411/imputelab-api.git
 cd imputelab-api
 ```
 
